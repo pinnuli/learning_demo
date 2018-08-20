@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-
 
     <servlet>
         <servlet-name>ListServlet</servlet-name>
@@ -17,5 +16,45 @@
     <servlet-mapping>
         <servlet-name>ListServlet</servlet-name>
         <url-pattern>/List.action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteOneServlet</servlet-name>
+        <servlet-class>com.pinnuli.servlet.DeleteOneServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteOneServlet</servlet-name>
+        <url-pattern>/DeleteOneServlet.action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteBatchServlet</servlet-name>
+        <servlet-class>com.pinnuli.servlet.DeleteBatchServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteBatchServlet</servlet-name>
+        <url-pattern>/DeleteBatchServlet.action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InitServlet</servlet-name>
+        <servlet-class>com.pinnuli.servlet.InitServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InitServlet</servlet-name>
+        <url-pattern>/InitServlet.action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AutoReplyServlet</servlet-name>
+        <servlet-class>com.pinnuli.servlet.AutoReplyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AutoReplyServlet</servlet-name>
+        <url-pattern>/AutoReplyServlet.action</url-pattern>
     </servlet-mapping>
 </web-app>

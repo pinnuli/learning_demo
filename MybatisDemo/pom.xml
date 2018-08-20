@@ -27,6 +27,14 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- log4j-->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+
+
     <!--引入javaee-->
     <dependency>
       <groupId>javax</groupId>
@@ -50,6 +58,14 @@
       <scope>provided</scope>
     </dependency>
 
+    <!-- 配置mybatis-->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.4.6</version>
+    </dependency>
+
+
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
@@ -59,6 +75,18 @@
 
   <build>
     <finalName>com.pinnuli</finalName>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/java</directory>
+        <includes>
+          <include>**/*.properties</include>
+          <include>**/*.xml</include>
+        </includes>
+      </resource>
+      <resource>
+        <directory>${basedir}/src/main/resources</directory>
+      </resource>
+    </resources>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

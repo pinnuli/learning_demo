@@ -4,32 +4,37 @@
 
 <%
     String path = request.getContextPath();
-    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getLocalPort() + path;
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getLocalPort() + path + "/";
 %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE"/>
     <title>内容列表页面</title>
-    <link href="<%= basePath %>/resources/css/all.css" rel="stylesheet" type="text/css"/>
+    <link href="<%= basePath %>resources/css/all.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="<%= basePath %>resources/js/list.js"></script>
+
 </head>
 <body style="background: #e1e9eb;">
-<form action="" id="mainForm" method="post">
+
+
+<form action="<%= basePath %>List.action" id="mainForm" method="post">
     <div class="right">
         <div class="current">当前位置：<a href="javascript:void(0)" style="color:#6E6E6E;">内容管理</a> &gt; 内容列表</div>
         <div class="rightCont">
-            <p class="g_title fix">内容列表 <a class="btn03" href="#">新 增</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn03"
-                                                                                                    href="#">删 除</a></p>
+            <p class="g_title fix">内容列表 <a class="btn03" data-toggle="modal" data-target="#createMessage">新 增</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn03"
+                                                                                                    href="javascript:deleteBatch('<%=basePath%>');">删 除</a></p>
             <table class="tab1">
                 <tbody>
                 <tr>
-                    <td width="90" align="right">演示字段1：</td>
+                    <td width="90" align="right">指令</td>
                     <td>
-                        <input type="text" class="allInput" value=""/>
+                        <input name="command" type="text" class="allInput" value="${command}"/>
                     </td>
-                    <td width="90" align="right">演示字段2：</td>
+                    <td width="90" align="right">描述</td>
                     <td>
-                        <input type="text" class="allInput" value=""/>
+                        <input name="description" type="text" class="allInput" value="${description}"/>
                     </td>
                     <td width="85" align="right"><input type="submit" class="tabSub" value="查 询"/></td>
                 </tr>
@@ -41,8 +46,8 @@
                     <tr>
                         <th><input type="checkbox" id="all" onclick="#"/></th>
                         <th>序号</th>
-                        <th>演示字段1</th>
-                        <th>演示字段2</th>
+                        <th>指令名称</th>
+                        <th>描述</th>
                         <th>操作</th>
                     </tr>
                     <c:forEach items="${messageList}" var="message" varStatus="status">
