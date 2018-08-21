@@ -13,4 +13,5 @@
 - 2018.08.21
 > 添加慕课学习通过自动回复机器人学Mybatis---加强版：
    
-    - 第二章：`MybatisPlus02Demo`  
+     第二章：`MybatisPlus02Demo`
+     第三章：`MybatisPlus03Demo`  
