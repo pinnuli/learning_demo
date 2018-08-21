@@ -4,7 +4,6 @@ import com.pinnuli.bean.Message;
 import com.pinnuli.db.DBAccess;
 import org.apache.ibatis.session.SqlSession;
 
-import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -115,8 +114,5 @@ public class MessageDao {
         }
     }
 
-    public static void main(String[] args) {
-        MessageDao messageDao = new MessageDao();
-        messageDao.queryMessageList("", "");
-    }
+
 }

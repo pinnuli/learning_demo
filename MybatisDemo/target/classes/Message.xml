@@ -24,7 +24,7 @@
                 AND DESCRIPTION like &quot;%&quot; #{description} &quot;%&quot;
             </if>
 
-
+      <!--<where></where>可以表示查询条件-->
     </select>
 
     <!--删除单条-->
@@ -40,6 +40,42 @@
       </foreach>
       )
     </delete>
+
+
+
+
+    <!--定义常量-->
+    <sql id="columns">ID, COMMAND, DESCRIPTION, CONTENT</sql>
+    <select id="queryList" parameterType="com.pinnuli.bean.Message" resultMap="MessageResult">
+        select <include refid="columns"/> from message where 1=1
+    </select>
+
+    <!--设置更新选项,则不会有多余的","-->
+    <update id="">
+        UPDATE message
+        <set>
+            <if test="command != null and !&quot;&quot;.equals(command.trim())">
+                COMMAND=#{command},
+            </if>
+            <if test="description != null and !&quot;&quot;.equals(description.trim())">
+               DESCRIPTION=#{description},
+            </if>
+        </set>
+    </update>
+
+    <!--实现switch功能:一个when相当于一个case,otherwise相当于default-->
+    <select id="queryMessageListSwitch" parameterType="com.pinnuli.bean.Message" resultMap="MessageResult">
+        select ID, COMMAND, DESCRIPTION, CONTENT from message where 1=1
+        <choose>
+            <when test="">
+            </when>
+            <when test="">
+            </when>
+            <when test="">
+            </when>
+            <otherwise></otherwise>
+        </choose>
+    </select>
 
 
 

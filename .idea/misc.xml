@@ -2,11 +2,16 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/MybatisDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisPlus02Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisPlus03Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisPlusChapter02Demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/MybatisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisPlus02Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisPlus03Demo/pom.xml" />
       </list>
     </option>
   </component>

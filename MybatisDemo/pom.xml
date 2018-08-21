@@ -7,7 +7,10 @@
   <groupId>com.pinnuli</groupId>
   <artifactId>com.pinnuli</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+    <modules>
+        <module>../MybatisDemo</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>com.pinnuli Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
