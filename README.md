@@ -8,10 +8,10 @@
     
  
 - 2018.08.19
-> 添加慕课学习:通过自动回复机器人学Mybatis---基础版的demo：`MybatisDemo`
+> 添加慕课学习通过自动回复机器人学Mybatis---基础版的demo：`MybatisDemo`
 
 - 2018.08.21
-> 添加慕课学习:通过自动回复机器人学Mybatis---加强版：
+> 添加慕课学习通过自动回复机器人学Mybatis---加强版：
    
      第二章：`MybatisPlus02Demo`
      第三章：`MybatisPlus03Demo`  
