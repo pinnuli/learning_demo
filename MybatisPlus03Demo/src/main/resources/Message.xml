@@ -67,4 +67,13 @@
     </select>
 
     <sql id="columns">ID,COMMAND,DESCRIPTION,CONTENT</sql>
+
+
+    <!--批量插入-->
+    <insert id="insertBatch" parameterType="java.util.List">
+        INSERT INTO command_content(CONTENT, COMMAND_ID) VALUES
+        <foreach collection="list" separator=",">
+            (#item.content),(#item.conmandId)
+        </foreach>
+    </insert>
 </mapper>

@@ -43,7 +43,7 @@ public class ListServlet extends HttpServlet {
         }
         QueryService listService = new QueryService();
         //查询消息列表并传给页面
-        request.setAttribute("messageList", listService.queryMessageList(command, description, page));
+        request.setAttribute("messageList", listService.queryMessageListByPage(command, description, page));
         System.out.println(page.getCurrentPage());
         //向页面传值
         request.setAttribute("command", command);
