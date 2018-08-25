@@ -5,13 +5,14 @@
     <file type="web" url="file://$PROJECT_DIR$/MybatisPlus02Demo" />
     <file type="web" url="file://$PROJECT_DIR$/MybatisPlus03Demo" />
     <file type="web" url="file://$PROJECT_DIR$/MybatisPlusChapter02Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/MybatisDemo/pom.xml" />
         <option value="$PROJECT_DIR$/MybatisPlus02Demo/pom.xml" />
         <option value="$PROJECT_DIR$/MybatisPlus03Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVCDemo/pom.xml" />
       </list>
     </option>
   </component>

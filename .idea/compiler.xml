@@ -10,6 +10,7 @@
         <module name="MybatisPlus03Demo" />
         <module name="MybatisPlusChapter03Demo" />
         <module name="MybatisPlusDemo" />
+        <module name="SpringMVCDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="MybatisPlusChapter02Demo" target="1.5" />
       <module name="MybatisPlusChapter03Demo" target="1.7" />
       <module name="MybatisPlusDemo" target="1.7" />
+      <module name="SpringMVCDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
