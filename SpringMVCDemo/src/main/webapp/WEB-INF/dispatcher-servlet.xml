@@ -21,6 +21,21 @@
     <mvc:resources mapping="/resources/**" location="/resources/"/>
 
     <bean
+            class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+        <property name="favorParameter" value="true"/>
+        <property name="parameterName" value="format"/>
+        <property name="ignoreAcceptHeader" value="true"/>
+        <property name="mediaTypes">
+            <value>
+                json=application/json
+                xml=application/xml
+                html=text/html
+            </value>
+        </property>
+        <property name="defaultContentType" value="application/json"/>
+    </bean>
+
+    <bean
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass"
                   value="org.springframework.web.servlet.view.JstlView" />
@@ -28,4 +43,16 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <bean id="multipartResol" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="209715200"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+        <property name="resolveLazily" value="true"/>
+    </bean>
+    
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/courses/jsontype/123"/>
+            <bean class="com.pinnuli.mvcdemo.interceptor.TestInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
