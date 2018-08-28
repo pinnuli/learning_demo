@@ -11,6 +11,7 @@
         <module name="MybatisPlusChapter03Demo" />
         <module name="MybatisPlusDemo" />
         <module name="SpringMVCDemo" />
+        <module name="ssm_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="MybatisPlusChapter03Demo" target="1.7" />
       <module name="MybatisPlusDemo" target="1.7" />
       <module name="SpringMVCDemo" target="1.7" />
+      <module name="ssm_demo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
