@@ -7,6 +7,9 @@
     <file type="web" url="file://$PROJECT_DIR$/MybatisPlusChapter02Demo" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_demo" />
+    <file type="web" url="file://$PROJECT_DIR$/../refer_code/MMall_JAVA" />
+    <file type="web" url="file://$PROJECT_DIR$/../refer_code/ssm-cluster" />
+    <file type="web" url="file://$PROJECT_DIR$/../refer_code/SSM_systemDemo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,6 +18,9 @@
         <option value="$PROJECT_DIR$/MybatisPlus03Demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVCDemo/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../refer_code/MMall_JAVA/pom.xml" />
+        <option value="$PROJECT_DIR$/../refer_code/ssm-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/../refer_code/SSM_systemDemo/pom.xml" />
       </list>
     </option>
   </component>

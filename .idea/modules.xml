@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/MybatisPlus02Demo/MybatisPlus02Demo.iml" filepath="$PROJECT_DIR$/MybatisPlus02Demo/MybatisPlus02Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MybatisPlus03Demo//MybatisPlus03Demo.iml" filepath="$PROJECT_DIR$/MybatisPlus03Demo//MybatisPlus03Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVCDemo/SpringMVCDemo.iml" filepath="$PROJECT_DIR$/SpringMVCDemo/SpringMVCDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../refer_code/SSM_systemDemo/VNDais.iml" filepath="$PROJECT_DIR$/../refer_code/SSM_systemDemo/VNDais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../refer_code/MMall_JAVA/mmall.iml" filepath="$PROJECT_DIR$/../refer_code/MMall_JAVA/mmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../refer_code/ssm-cluster/ssm-cluster.iml" filepath="$PROJECT_DIR$/../refer_code/ssm-cluster/ssm-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm_demo/ssm_demo.iml" filepath="$PROJECT_DIR$/ssm_demo/ssm_demo.iml" />
     </modules>
   </component>

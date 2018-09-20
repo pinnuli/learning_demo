@@ -33,7 +33,6 @@ public class QueryService {
         return messageDao.queryMessageList(parameter);
     }
 
-
     public String queryByCommand(String command) {
         CommandDao commandDao = new CommandDao();
         List<Command> commandList;

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VNDais:war">
+    <output-path>$PROJECT_DIR$/../refer_code/SSM_systemDemo/target</output-path>
+    <root id="archive" name="VNDais.war">
+      <element id="artifact" artifact-name="VNDais:war exploded" />
+    </root>
+  </artifact>
+</component>

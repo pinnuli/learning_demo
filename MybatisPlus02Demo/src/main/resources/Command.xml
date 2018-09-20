@@ -21,6 +21,5 @@
         select a.ID C_ID,a.NAME,a.DESCRIPTION,b.ID,b.CONTENT,b.COMMAND_ID
         from command a left join command_content b
         on a.ID=b.COMMAND_ID
-
     </select>
 </mapper>
