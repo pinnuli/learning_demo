@@ -4,4 +4,4 @@
 
 ### IDEA ###
 # idea configuration file
-*.idea/**
+.idea

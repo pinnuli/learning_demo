@@ -14,36 +14,8 @@
     <list default="true" id="e7ce6a4d-ddac-47d8-9509-c6dc446d0b67" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../refer_code/MMall_JAVA/lib/alipay-trade-sdk-20161215-source.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../refer_code/MMall_JAVA/lib/alipay-trade-sdk-20161215.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ConcurrencyDemo_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ConcurrencyDemo_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurrencyDemo/ConcurrencyDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurrencyDemo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurrencyDemo/src/main/java/com/pinnuli/ConcurrentPackage/Horse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurrencyDemo/src/main/java/com/pinnuli/ConcurrentPackage/HorseRace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurrencyDemo/src/main/java/com/pinnuli/executorDemo/CacheExecutorPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurrencyDemo/src/main/java/com/pinnuli/executorDemo/LiftOff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/JVMDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/src/main/java/chapter2/HeapOOM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/src/main/java/chapter3/TestAllocation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/src/main/java/chapter3/TestHandlePromotion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/src/main/java/chapter3/TestPretenuresSizeThreshold.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/src/main/java/chapter3/TestTenuringThreshold.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JVMDemo/src/main/java/chapter3/TestTenuringThreshold2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page_Replacement/Page_Replacement.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page_Replacement/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page_Replacement/src/main/java/com/pinnuli/LRULinkedHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page_Replacement/src/main/java/com/pinnuli/PageReplacement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page_Replacement/src/main/java/com/pinnuli/PrintUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page_Replacement/src/main/java/com/pinnuli/ReplacementAlgorithm.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/circle_square_image.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc-study.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../refer_code/MMall_JAVA/pom.xml" afterPath="$PROJECT_DIR$/../refer_code/MMall_JAVA/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../refer_code/MMall_JAVA/src/main/java/com/mmall/common/ServerResponse.java" afterPath="$PROJECT_DIR$/../refer_code/MMall_JAVA/src/main/java/com/mmall/common/ServerResponse.java" />
@@ -173,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -919,7 +891,7 @@
       <workItem from="1543309530237" duration="665000" />
       <workItem from="1543310299328" duration="2692000" />
       <workItem from="1543541394588" duration="6746000" />
-      <workItem from="1543798375073" duration="20993000" />
+      <workItem from="1543798375073" duration="21252000" />
     </task>
     <servers />
   </component>
@@ -956,7 +928,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423121000" />
+    <option name="totallyTimeSpent" value="423380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="695" extended-state="6" />
@@ -1453,7 +1425,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
