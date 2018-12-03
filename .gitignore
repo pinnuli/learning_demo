@@ -1,0 +1,7 @@
+### Java ###
+# Compiled class file
+*.class
+
+### IDEA ###
+# idea configuration file
+*.idea/**
