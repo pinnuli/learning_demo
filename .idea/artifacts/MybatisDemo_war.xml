@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="MybatisDemo:war">
-    <output-path>$PROJECT_DIR$/MybatisDemo/target</output-path>
-    <root id="archive" name="com.pinnuli.war">
-      <element id="artifact" artifact-name="MybatisDemo:war exploded" />
-    </root>
-  </artifact>
-</component>

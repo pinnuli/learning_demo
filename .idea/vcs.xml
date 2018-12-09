@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../refer_code/MMall_JAVA" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../refer_code/SSM_systemDemo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../refer_code/ssm-cluster" vcs="Git" />
-  </component>
-</project>

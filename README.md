@@ -14,4 +14,14 @@
 > 添加慕课学习通过自动回复机器人学Mybatis---加强版：
    
      第二章：`MybatisPlus02Demo`
-     第三章：`MybatisPlus03Demo`  
+     第三章：`MybatisPlus03Demo`
+       
+- 208.12.02
+> 添加操作系统课设--页面置换算法模拟实现和命中率对比
+
+- 2018.12.04
+> 添加Jedis联系demo
+
+
+
+
