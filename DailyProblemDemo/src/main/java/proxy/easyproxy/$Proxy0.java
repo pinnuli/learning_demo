@@ -1,17 +1,16 @@
 package proxy.easyproxy;
+import java.lang.reflect.Method;
+import proxy.easyproxy.InvocationHandler;
 public class $Proxy0 implements proxy.easyproxy.Move {
-	public $Proxy0(proxy.easyproxy.Move m) {
-		super();
-		this.m = m;
+	public $Proxy0(InvocationHandler h) {
+		this.h = h;
 	}
-	private proxy.easyproxy.Move m;
+  private InvocationHandler h;
 	@Override
 	public void move() {
-		long startTime = System.currentTimeMillis();
-		System.out.println("汽车开始行驶....");
-		m.move();
-		long endTime = System.currentTimeMillis();
-		System.out.println("汽车结束行驶....  汽车行驶时间：" 
-				+ (endTime - startTime) + "毫秒！");
+  try{
+  Method md = proxy.easyproxy.Move.class.getMethod("move");
+  h.invoke(this,md);
+  }catch(Exception e){ e.printStackTrace();}
 	}
 }

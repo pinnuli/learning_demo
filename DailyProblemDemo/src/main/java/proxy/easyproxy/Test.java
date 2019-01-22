@@ -9,9 +9,10 @@ import java.lang.reflect.InvocationTargetException;
  */
 
 public class Test {
-    public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
-        Move m = (Move) Proxy.newProxyInstance(Move.class);
+    public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, InterruptedException {
+        Car car = new Car();
+        InvocationHandler h = new TimeHandler(car);
+        Move m = (Move) Proxy.newProxyInstance(Move.class, h);
         m.move();
-//        System.out.println(System.getProperty("user.dir"));
     }
 }
