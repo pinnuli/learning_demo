@@ -1,6 +1,5 @@
 package proxy.easyproxy;
 import java.lang.reflect.Method;
-import proxy.easyproxy.InvocationHandler;
 public class $Proxy0 implements proxy.easyproxy.Move {
 	public $Proxy0(InvocationHandler h) {
 		this.h = h;

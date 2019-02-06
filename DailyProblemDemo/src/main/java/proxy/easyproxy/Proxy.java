@@ -29,8 +29,7 @@ public class Proxy {
         }
 
         String str =
-                "package proxy.easyproxy;" + rt + "import java.lang.reflect.Method;" + rt
-                        + "import proxy.easyproxy.InvocationHandler;" + rt + "public class $Proxy0 implements "
+                "package proxy.easyproxy;" + rt + "import java.lang.reflect.Method;"  + rt + "public class $Proxy0 implements "
                         + infce.getName() + " {" + rt + "	public $Proxy0(InvocationHandler h) {" + rt + "		this.h = h;"
                         + rt + "	}" + rt + "  private InvocationHandler h;" + rt + methodStr + rt + "}";
         //产生代理类的java文件

@@ -5,3 +5,9 @@
 ### IDEA ###
 # idea configuration file
 .idea
+/*.iml
+/DailyProblemDemo/target/
+/JedisDemo/target/
+/JVMDemo/target/
+/MybatisDemo/target/
+/MybatisPlus02Demo/target/
